@@ -7,7 +7,7 @@ import pymongo
 connection = pymongo.Connection("mongodb://localhost", safe=True)
 
 # get a handle to the reddit database
-db=connection.reddit
+db = connection.reddit
 stories = db.stories
 
 # get the reddit home page

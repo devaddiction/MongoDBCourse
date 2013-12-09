@@ -29,7 +29,6 @@ def find():
         sanity += 1
         if (sanity > 10):
             break
-        
 
 find()
 
